@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --main-color:#212137;
+}
+body{
+    font-family: "Alexandria", sans-serif;
+}
+/* .container{
+    position: relative;
+}
+.container h1{
+    position: absolute;
+   right: 39%;
+   top: 100px;
+   font-size: 60px;
+   color: #212137;
+   font-weight: 400;
+}
+.container p{
+    position: absolute;
+    font-size: 30px;
+    top:179px;
+    right:39%;
+    color: var(--main-color);
+}
+.container .images{
+position: relative;
+}
+.container .images .mask{
+    width: 200px;
+
+}
+ */
+ .container{
+    background-image: url(/images/Certificate\ Background.png);
+    background-size:80% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+    position: relative;
+ }
+ .container .head{
+    position: absolute;
+    right: 39%;
+    top: 100px;
+    color: var(--main-color);
+    line-height: 2.5em
+}
+
+.container .head h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -23px;
+}
+.container .head p{
+    text-align: center;
+    font-size: 30px;
+}
+.container .images{
+    position: relative;
+
+}
+.container .images .photo{
+    position: absolute;
+    width: 159px;
+    top: 167px;
+    right: 249px;
+}
+.container .images .logo{
+    position: absolute;
+    width: 250px;
+    top: 187px;
+    right: 40%;
+}
+.container .images .mask{
+    position: absolute;
+    width: 200px;
+    top: 167px;
+    left: 190px;
+}
+.container .sec-text{
+    text-align: center;
+    position: relative;
+    top: 332px;
+}
+.container .sec-text p{
+    position: relative;
+    top: -25px;
+    color: var(--main-color);
+    font-size: 29px;
+    margin-bottom: 23px;
+}
+.container .sec-text h1{
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 500;
+    color: rgb(248, 123, 51);
+    margin-top: -43px;
+    margin-bottom: 38px;
+    font-size: 50px;
+}
+
+.container .sec-text .sec2-p{
+
+    font-weight: 600;
+    padding-top: 5px;
+
+}
+.footer{
+    position: relative;
+}
+.footer .icon{
+    width: 100px;
+    position: absolute;
+    top: 301px;
+    left: 47%;
+}
+.footer h3{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 30px;
+    display: inline;
+    position: relative;
+   
+
+}
+
+.footer .date{
+    position: absolute;
+    right: 333px;
+    top: 289px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.7em;
+}
+.footer .sig {
+    position: absolute;
+    top: 314px;
+    left: 445px;
+    font-weight: 600;
+    font-size: 35px;
+}
